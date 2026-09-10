@@ -1,15 +1,15 @@
-from python:3.10-slim
+FROM python:3.10-slim
 
-WARKDIR /app
+WORKDIR /app
 
-Copy requirements.txt .
-RUN pip install -no-cache-dir -r requirements.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-#entrenar y genera el artefacto en el build
+# Entrenar y generar el artefacto en el build
 RUN python train.py
 
 EXPOSE 8000
 
-CMD ["unicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

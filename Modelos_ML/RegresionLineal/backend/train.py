@@ -33,6 +33,8 @@ model.fit(x, y)
 # #Imprimir la grafica
 # plt.show()
 
-#Guardar el artefacto del modelo entrenado en un archivo
-joblib.dump(model, 'Modelos_ML/RegresionLineal/Models/linear_regression_model.pkl')
+# Guardar el artefacto del modelo entrenado en un archivo
+import os
+os.makedirs('Models', exist_ok=True)
+joblib.dump(model, 'Models/linear_regression_model.pkl')
 
