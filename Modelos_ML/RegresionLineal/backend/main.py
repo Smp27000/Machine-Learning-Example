@@ -10,7 +10,7 @@ app = FastAPI(
 
 try:
     #Cargar el modelo entrenado
-    model = joblib.load('Modelos_ML/RegresionLineal/Models/linear_regression_model.pkl')
+    model = joblib.load('Models/linear_regression_model.pkl')
 
 except Exception:
     model = None
