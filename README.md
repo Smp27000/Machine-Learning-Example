@@ -130,5 +130,8 @@ python "3.Predecir_enefermedad.py"
 
 ---
 
-## 👤 Autor
-Desarrollado como parte del **Taller 3 de Python & Machine Learning - SENA**.
+## Links
+- Pagina web de la Captura de video/py_img: https://machine-learning-example-tawny.vercel.app/
+- Backend de RegresionLineal: https://machine-learning-example-production.up.railway.app/
+- Frontend de RegresionLineal: https://stunning-enjoyment-production-a00f.up.railway.app/
+- streamlit de Random Forest: https://machine-learning-example-68os9qtqktiy8jyyucflsn.streamlit.app/
