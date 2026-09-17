@@ -6,3 +6,4 @@ streamlit
 jupyter
 openpyxl
 plotly
+opencv-python

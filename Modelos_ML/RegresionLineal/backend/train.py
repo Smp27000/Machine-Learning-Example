@@ -4,8 +4,8 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
 #Datos de entrenamiento (X) y etiquetas (y)
-x = np.array([[50], [40], [70], [100], [60]])
-y = np.array([6000000, 4500000, 8200000, 11000000, 7000000])
+x = np.array([[40], [50], [70], [100], [200]])
+y = np.array([410000000,500000000,700000000,1000000000,2000000000])
 
 #Entrnar el modelo de regresion lineal
 
